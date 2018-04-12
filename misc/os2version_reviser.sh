@@ -3,7 +3,7 @@
 #
 # OS/2 Version Reviser
 #
-# Copyright (c) 2011-2014, Yasunori Yusa <yusa at save.sys.t.u-tokyo.ac.jp>
+# Copyright (c) 2011-2014, Yasunori Yusa <yyusa at rs.tus.ac.jp>
 # All rights reserved.
 #
 # This script is to revise OS/2 Version of Ricty.
@@ -19,7 +19,7 @@ os2_version="1"
 
 if [ $# -eq 0 ]
 then
-    echo usage
+    echo $usage
     exit 0
 fi
 
